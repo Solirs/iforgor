@@ -29,3 +29,6 @@ More code snippets.
 Images:
 
 ![alt text](https://github.com/Solirs/iforgor/blob/master/iforgorpic.png?raw=true)
+
+
+(THIS PROGRAM IS NOT RECOMMENDED FOR USE AT THE MOMENT, THIS IS SIMPLY A SHOWCASE VERSION)
