@@ -6,7 +6,15 @@ This happens to me all the time, so i created "iforgor", a simple python tool to
 
 How to use it ?
 
-python3 iforgor.py -LANGUAGE -PIECEOFCODE (can be a list, struct, whatever)
+
+python3 iforgor.py -LANGUAGE PIECEOFCODE (can be a list, struct, whatever)
+
+
+Example:
+
+
+python3 iforgor.py -C struct
+
 
 
 
