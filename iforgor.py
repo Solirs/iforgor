@@ -30,5 +30,5 @@ if args.Clang:
         d["a"] = (args.Snippet)
         result = eval(d["a"] + "()")
     except Exception as e:
-        pass
+        print(e)
 
