@@ -17,4 +17,4 @@ Setup script to add iforgor to path.
 
 More code snippets.
 
-![alt text](https://github.com/Solirs/Iforgor/ress/image.jpg?raw=true)
+![alt texthttps://github.com/Solirs/iforgor/blob/master/iforgorpic.png)
