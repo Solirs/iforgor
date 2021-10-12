@@ -31,4 +31,3 @@ if args.Clang:
         result = eval(d["a"] + "()")
     except Exception as e:
         print(e)
-

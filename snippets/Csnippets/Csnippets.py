@@ -1,13 +1,20 @@
 from colorama import Fore, Style
+from .. import syntax
 
 def struct():
-    print(f'''{Fore.BLUE}struct{Style.RESET_ALL} StructName
-    {{
-    {Fore.GREEN}int {Style.RESET_ALL} variable1;
-    {Fore.GREEN}int {Style.RESET_ALL}variable2;
-    {Fore.GREEN}int {Style.RESET_ALL}OtherVariable;
-    {Fore.GREEN}double {Style.RESET_ALL} DecimalNumber;
-    }};
-    ''')
+    print(syntax.highlight('''struct StructName
+    {
+    int variable1;
+    int variable2;
+    int OtherVariable;
+    double  DecimalNumber;
+    };
+    '''))
+
+def ifelse():
+    print(syntax.highlight('''if (test expression) 
+{
+   // code
+}'''))
 
 #TODO! Add lists and functions
