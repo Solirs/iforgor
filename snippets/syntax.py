@@ -24,16 +24,16 @@ def highlight(code):
 
     for i in darkyellow:
         if i in code:
-            finished = finished.replace(i, f"{darkyellowcolor}{i}{Style.RESET_ALL}")
+            finished = re.sub(i, f"{darkyellowcolor}{i}{Style.RESET_ALL}", finished)
     for i in darkblue:
         if i in code:
-            finished = finished.replace(i, f"{darkbluecolor}{i}{Style.RESET_ALL}")
+            finished = re.sub(i, f"{darkbluecolor}{i}{Style.RESET_ALL}", finished)
         else:
             pass
 
     for i in white:
         if i in code:
-            finished = finished.replace(i, f"{whitecolor}{i}{Style.RESET_ALL}")
+            finished = re.sub(i, f"{whitecolor}{i}{Style.RESET_ALL}")
         else:
             pass
 
@@ -42,8 +42,8 @@ def highlight(code):
     try:
         finished = re.sub('"[^"]+"', Fore.BLUE + "\"" + p.group(1) + "\"", finished)
         finished = re.sub('\'[^"]+\'', Fore.BLUE + "\'" + p.group(1) + "\'", finished)
-    except Exception as e:
-        print(e)
+    except:
+        pass
 
             
 
