@@ -25,8 +25,6 @@ def highlight(code):
     for i in darkyellow:
         if i in code:
             finished = finished.replace(i, f"{darkyellowcolor}{i}{Style.RESET_ALL}")
-        else:
-            pass
     for i in darkblue:
         if i in code:
             finished = finished.replace(i, f"{darkbluecolor}{i}{Style.RESET_ALL}")
@@ -38,6 +36,14 @@ def highlight(code):
             finished = finished.replace(i, f"{whitecolor}{i}{Style.RESET_ALL}")
         else:
             pass
+
+    
+    p = re.search(r'\"(.+?)\"', finished)
+    try:
+        finished = re.sub('"[^"]+"', Fore.BLUE + "\"" + p.group(1) + "\"", finished)
+        finished = re.sub('\'[^"]+\'', Fore.BLUE + "\'" + p.group(1) + "\'", finished)
+    except Exception as e:
+        print(e)
 
             
 
