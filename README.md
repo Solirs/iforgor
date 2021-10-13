@@ -40,7 +40,7 @@ Sure. All help is accepted.
 
 # Planned features:
 
-Setup script to add iforgor to path.
+A setup script for an easier installation.
 
 More code snippets.
 
