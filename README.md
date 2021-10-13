@@ -18,7 +18,7 @@ python3 iforgor.py -C struct
 
 
 
-*FUTURE FEATURES:
+#Planned features:
 
 Setup script to add iforgor to path.
 
