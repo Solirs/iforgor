@@ -31,7 +31,7 @@ Now try to run the program
 python3 iforgor.py -C struct
 
 
-#Planned features:
+# Planned features:
 
 Setup script to add iforgor to path.
 
