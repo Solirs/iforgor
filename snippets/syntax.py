@@ -15,7 +15,7 @@ whitecolor = f"{Fore.WHITE}{Style.BRIGHT}"
 
 darkyellow = ['+', '-', '*', '/', '%', '**', '=', '+=', '-=', '==', '*=', '/=', '%=', '//=', '!=', '&=', '|=', '^=', '>>=', '<<=', "if", "else", ';', 'return']
 
-darkblue = ['void', 'int', 'char', 'double', 'float', 'double', 'struct']
+darkblue = ['void', 'int', 'char', 'double', 'float', 'double', 'struct', 'def']
 
 white = ['(', ')', '{', '}']
 
