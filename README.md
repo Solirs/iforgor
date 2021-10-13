@@ -16,6 +16,19 @@ python3 iforgor.py -C struct
 ![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo.png?raw=true)
 
 
+# Installation 
+
+install git with your package manager (Depends of your distro).
+
+cd into the directory you want to install into.
+
+git clone https://github.com/Solirs/iforgor/
+
+cd iforgor
+
+Now try to run the program
+
+python3 iforgor.py -C struct
 
 
 #Planned features:
