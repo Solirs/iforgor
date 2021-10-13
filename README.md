@@ -33,6 +33,11 @@ Now try to run the program
 python3 iforgor.py -C struct
 
 
+# Want to contribute ?
+
+Sure. All help is accepted.
+
+
 # Planned features:
 
 Setup script to add iforgor to path.
