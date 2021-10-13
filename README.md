@@ -18,7 +18,9 @@ python3 iforgor.py -C struct
 
 # Installation 
 
-install git with your package manager (Depends of your distro).
+Make sure you have python and colorama installed.
+
+install git with your package manager (Depends of your distro or package manager).
 
 cd into the directory you want to install into.
 
