@@ -7,15 +7,15 @@ import re
 colorama.init()
 
 
-darkyellowcolor = f"{Fore.YELLOW}{Style.DIM}"
+darkyellowcolor = f"{Fore.YELLOW}{Style.NORMAL}"
 
 darkbluecolor =f"{Fore.BLUE}{Style.DIM}"
 
-whitecolor = Fore.WHITE
+whitecolor = f"{Fore.WHITE}{Style.BRIGHT}"
 
-darkyellow = ['+', '-', '*', '/', '%', '**', '=', '+=', '-=', '==', '*=', '/=', '%=', '//=', '!=', '&=', '|=', '^=', '>>=', '<<=', "if", "else"]
+darkyellow = ['+', '-', '*', '/', '%', '**', '=', '+=', '-=', '==', '*=', '/=', '%=', '//=', '!=', '&=', '|=', '^=', '>>=', '<<=', "if", "else", ';', 'return']
 
-darkblue = ['void', 'int', 'char', 'double', 'float', 'double']
+darkblue = ['void', 'int', 'char', 'double', 'float', 'double', 'struct']
 
 white = ['(', ')', '{', '}']
 
@@ -24,18 +24,20 @@ def highlight(code):
 
     for i in darkyellow:
         if i in code:
-            finished = re.sub(i, f"{darkyellowcolor}{i}{Style.RESET_ALL}", finished)
+            finished = re.sub(fr"{i}", f"{darkyellowcolor}{i}{Style.RESET_ALL}", finished)
     for i in darkblue:
         if i in code:
-            finished = re.sub(i, f"{darkbluecolor}{i}{Style.RESET_ALL}", finished)
+            finished = re.sub(fr"\b{i}\b", f"{darkbluecolor}{i}{Style.RESET_ALL}", finished)
         else:
             pass
 
     for i in white:
         if i in code:
-            finished = re.sub(i, f"{whitecolor}{i}{Style.RESET_ALL}")
+            finished = re.sub(fr"\{i}", f"{whitecolor}{i}{Style.RESET_ALL}", finished)
         else:
             pass
+
+    
 
     
     p = re.search(r'\"(.+?)\"', finished)

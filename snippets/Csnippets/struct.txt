@@ -1,0 +1,7 @@
+struct StructName
+    {
+    int variable1;
+    int variable2;
+    int OtherVariable;
+    double  DecimalNumber;
+    };

@@ -1,10 +1,11 @@
-import argparse
-import os
+import argparse, os
 import sys
-from snippets.Csnippets.Csnippets import *
-
+import snippets
+from snippets.syntax import *
 
 parser = argparse.ArgumentParser(description='')
+
+dirname = os.path.dirname(__file__)
 
 
 parser.add_argument('-C',
@@ -23,11 +24,12 @@ args = parser.parse_args()
 
 if args.Clang:
 
-    try:
-        d = {
-            "a":None
-        }
-        d["a"] = (args.Snippet)
-        result = eval(d["a"] + "()")
-    except Exception as e:
-        print(e)
+
+    if os.path.exists(os.path.join(dirname, "snippets/Csnippets/" + args.Snippet + ".txt")): #Checks for text files corresponding to the snippet argument
+        try:
+            l = (dirname + "/snippets/Csnippets/" + args.Snippet + ".txt")
+            f = open(l, 'r')
+            print(highlight(f.read())) #Highlight and print
+        except Exception as e:
+            print(e)
+
