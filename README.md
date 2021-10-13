@@ -12,6 +12,7 @@ python3 iforgor.py -LANGUAGE PIECEOFCODE (can be a list, struct, whatever)
 Example:
 
 python3 iforgor.py -C struct
+
 ![alt text](https://github.com/Solirs/iforgor/blob/master/iforgorpic.png?raw=true)
 
 
