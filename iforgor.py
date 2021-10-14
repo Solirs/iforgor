@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+
+
+
 import argparse, os
 import sys
 import snippets
