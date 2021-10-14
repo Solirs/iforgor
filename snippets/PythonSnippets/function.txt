@@ -1,3 +1,8 @@
-def main():
+def main(arg):  #Declare
     //code
     return 0;
+
+
+main(arg) #Call
+
+print(main(arg)) #Print returned value
