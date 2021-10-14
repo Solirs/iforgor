@@ -13,14 +13,34 @@ Example:
 
 python3 iforgor.py -C struct
 
-![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/iforgorpic.png?raw=true)
+![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo.png?raw=true)
 
 
+# Installation 
+
+Make sure you have python and colorama installed.
+
+install git with your package manager (Depends of your distro or package manager).
+
+cd into the directory you want to install into.
+
+git clone https://github.com/Solirs/iforgor/
+
+cd iforgor
+
+Now try to run the program
+
+python3 iforgor.py -C struct
 
 
-#Planned features:
+# Want to contribute ?
 
-Setup script to add iforgor to path.
+Sure. All help is accepted.
+
+
+# Planned features:
+
+A setup script for an easier installation.
 
 More code snippets.
 
