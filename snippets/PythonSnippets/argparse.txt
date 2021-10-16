@@ -12,5 +12,5 @@ parser.add_argument(
 args = parser.parse_args() #Parse and list arguments in a variable.
 
 
-if args.Word: #If the "Word" argument exists
+if args.Word: #If the Word argument exists 
     print(args.Word) #Print it!

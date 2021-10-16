@@ -15,9 +15,9 @@ whitecolor = f"{Fore.WHITE}{Style.BRIGHT}"
 
 darkyellow = ['+', '-', '*', '/', '%', '**', '=', '+=', '-=', '==', '*=', '/=', '%=', '//=', '!=', '&=', '|=', '^=', '>>=', '<<=', "if", "else", ';', 'return']
 
-darkblue = ['void', 'int', 'char', 'double', 'float', 'double', 'struct', 'def']
+darkblue = ['void', 'int', 'char', 'double', 'float', 'double', 'struct', 'def', 'import']
 
-white = ['(', ')', '{', '}']
+white = ['(', ')', '{', '}',',']
 
 def highlight(code):
     finished = code
@@ -40,12 +40,18 @@ def highlight(code):
     
 
     
-    p = re.search(r'\"(.+?)\"', finished)
-    try:
-        finished = re.sub('"[^"]+"', Fore.BLUE + "\"" + p.group(1) + "\"", finished)
-        finished = re.sub('\'[^"]+\'', Fore.BLUE + "\'" + p.group(1) + "\'", finished)
-    except:
-        pass
+    p = re.findall(r'\"(.+?)\"', finished)
+    g = re.findall(r'\'(.+?)\'', finished) 
+
+
+    for i in p:
+        try:
+
+
+            finished = re.sub('("[^"]+")', Fore.BLUE + r'\1' + Style.RESET_ALL, finished)
+            finished = re.sub(r"('[^']')", Fore.BLUE + r'\1' + Style.RESET_ALL, finished)
+        except:
+            pass
 
             
 
