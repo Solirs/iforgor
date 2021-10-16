@@ -30,7 +30,7 @@ cd iforgor
 
 ./setup.sh
 
-Close terminal and reopen.
+*Close terminal and reopen.
 
 Now try to run iforgor.py -Py list
 
@@ -48,7 +48,7 @@ Sure. All help is accepted.
 
 # Planned features:
 
-A setup script for an easier installation.
+Customization tools.
 
 More code snippets.
 
