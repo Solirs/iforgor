@@ -18,7 +18,7 @@ python3 iforgor.py -C struct
 
 # Installation 
 
-Make sure you have python and colorama installed.
+Make sure you have python and the colorama module installed.
 
 install git with your package manager (Depends of your distro or package manager).
 
@@ -28,9 +28,17 @@ git clone https://github.com/Solirs/iforgor/
 
 cd iforgor
 
-Now try to run the program
+./setup.sh
 
-python3 iforgor.py -C struct
+Close terminal and reopen.
+
+Now try to run iforgor.py -Py list
+
+If it works congratulation, its setup!
+
+
+
+
 
 
 # Want to contribute ?
