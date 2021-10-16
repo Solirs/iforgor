@@ -30,7 +30,7 @@ cd iforgor
 
 ./setup.sh
 
-*Close terminal and reopen.
+*Close terminal and reopen.*
 
 Now try to run iforgor.py -Py list
 
