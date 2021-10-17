@@ -7,7 +7,7 @@ This happens to me all the time, so i created "iforgor", a simple python tool to
 # How to use it ?
 
 
-python3 iforgor.py -LANGUAGE PIECEOFCODE (can be a list, struct, whatever)
+iforgor.py LANGUAGE PIECEOFCODE
 
 Example:
 
