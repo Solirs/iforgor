@@ -49,6 +49,3 @@ Sure. All help is accepted.
 # Planned features:
 
 Customization tools.
-
-More code snippets.
-
