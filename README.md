@@ -35,6 +35,11 @@ Now try to run iforgor.py -h.
 If it works congratulation, its setup!
 
 
+# Compatibility
+
+This should work on pretty much any linux distro, but i can make mistakes, so dont hesitate opening an issue if you face problems.
+
+
 
 
 
