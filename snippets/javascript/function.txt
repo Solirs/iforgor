@@ -1,0 +1,9 @@
+
+
+function funcname() {
+
+
+   console.log("blablablabla")
+}
+
+funcname()
