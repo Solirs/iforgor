@@ -15,7 +15,7 @@ parser.add_argument(
                        "lang",
                        nargs="?",
                        type=str.lower,
-                       help='Order the program to display C code.')
+                       help='The snippets language.')
 
 parser.add_argument(
                        "Snippet",
