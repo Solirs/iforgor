@@ -7,13 +7,11 @@ This happens to me all the time, so i created "iforgor", a simple python tool to
 # How to use it ?
 
 
-python3 iforgor.py -LANGUAGE PIECEOFCODE (can be a list, struct, whatever)
+iforgor.py LANGUAGE PIECEOFCODE
 
 Example:
 
-python3 iforgor.py -C struct
-
-![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo.png?raw=true)
+![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo2.png?raw=true)
 
 
 # Installation 
@@ -35,6 +33,11 @@ cd iforgor
 Now try to run iforgor.py -h.
 
 If it works congratulation, its setup!
+
+
+# Compatibility
+
+This should work on pretty much any linux distro, but i can make mistakes, so dont hesitate opening an issue if you face problems.
 
 
 
