@@ -39,19 +39,15 @@ def highlight(code):
 
     
 
-    
-    p = re.findall(r'\"(.+?)\"', finished)
-    g = re.findall(r'\'(.+?)\'', finished) 
 
 
-    for i in p:
-        try:
+    try:
 
 
             finished = re.sub('("[^"]+")', Fore.BLUE + r'\1' + Style.RESET_ALL, finished)
             finished = re.sub(r"('[^']')", Fore.BLUE + r'\1' + Style.RESET_ALL, finished)
-        except:
-            pass
+    except:
+        pass
 
             
 
