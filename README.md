@@ -13,7 +13,7 @@ Example:
 
 python3 iforgor.py -C struct
 
-![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo.png?raw=true)
+![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo2.png?raw=true)
 
 
 # Installation 
