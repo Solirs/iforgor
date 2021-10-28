@@ -1,17 +1,17 @@
-## Iforgor
+# Iforgor
 
 Iforgor is a customisable and easy to use command line tool to manage code samples.
 It's a good way to quickly get your hand on syntax you dont remember right from your terminal.
 
-## Installation
+# Installation
 
-# Requirements : 
+## Requirements : 
 
 Python.
 Git.
 The colorama python module. 
 
-# Step by step procedure :
+## Step by step procedure :
 
 1. Open a terminal and cd into the directory you want to install the program into.
 
@@ -28,7 +28,7 @@ The colorama python module.
 If it works, the install was successful.
 
 
-## Iforgor 101
+# Iforgor 101
 
 To display a piece of code, run the following.
 
@@ -51,13 +51,13 @@ You can then print it out by running **iforgor.py rust function**
 
 
 
-## Screenshots:
+# Screenshots:
 
 ![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo2.png?raw=true)
 
 
 
-## Compatibility
+# Compatibility
 
 This should work on pretty much any linux distro, but i can make mistakes, so dont hesitate opening an issue if you face problems.
 
@@ -68,6 +68,6 @@ Debian 11 "Bullseye" : *Working*
 
 
 
-## Want to contribute ?
+# Want to contribute ?
 
 Sure. All help is accepted.
