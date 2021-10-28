@@ -2,6 +2,7 @@
 
 Iforgor is a customisable and easy to use command line tool to manage code samples.
 It's a good way to quickly get your hand on syntax you dont remember right from your terminal.
+Iforgor also contains a simple universal syntax highlighting engine.
 
 # Installation
 
