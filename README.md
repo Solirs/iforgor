@@ -27,6 +27,8 @@ The colorama python module.
 6. Run "iforgor.py -h"
 
 If it works, the install was successful.
+You can then delete setup.sh 
+
 
 
 # Iforgor 101
