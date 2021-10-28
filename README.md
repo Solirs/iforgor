@@ -32,7 +32,7 @@ You can then delete setup.sh
 
 To display a piece of code, run the following.
 
-**iforgor.py LANGUAGE SNIPPET**
+**iforgor LANGUAGE SNIPPET**
 
 The language argument represents a folder in the "snippets" directory.
 You can add any language you want by creating a folder in it.
@@ -44,7 +44,7 @@ So if you want to add a function sample for the, lets say Rust language for exam
 You will have to create a directory named "rust" in the snippets folder.
 And create a function.txt file in the rust folder with the code you want inside.
 
-You can then print it out by running **iforgor.py rust function**
+You can then print it out by running **iforgor rust function**
 
 
 
