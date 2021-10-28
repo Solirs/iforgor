@@ -26,11 +26,11 @@ parser.add_argument(
 args = parser.parse_args()                                              
 
 
-if args.lang:
+if args.lang: 
 
 
 
-    if os.path.exists(os.path.join(dirname, "snippets/" + args.lang + "/" + args.Snippet + ".txt")): #Checks for text files corresponding to the snippet argument
+    if os.path.exists(os.path.join(dirname, "snippets/" + args.lang + "/" + args.Snippet + ".txt")): #Checks for folders corresponding to the lang argument in the snippets folder and for text files corresponding to the snippet argument in the language folder
         try:
             l = (dirname + "/snippets/" + args.lang + "/" + args.Snippet + ".txt")
             f = open(l, 'r') #Open snippet
@@ -38,4 +38,4 @@ if args.lang:
         except Exception as e:
             print(e)
     else:
-        print(Fore.RED + os.path.join(dirname, "snippets/" + args.lang +"/" + args.Snippet + ".txt") + " Invalid path")
+        print(Fore.RED + os.path.join(dirname, "snippets/" + args.lang +"/" + args.Snippet + ".txt") + " Invalid path") #Prints out the path that was checked in case the files corresponding to your argument don't exist.
