@@ -2,7 +2,6 @@
 
 Iforgor is a customisable and easy to use command line tool to manage code samples.
 It's a good way to quickly get your hand on syntax you dont remember right from your terminal.
-Iforgor also contains a simple universal syntax highlighting engine.
 
 # Installation
 
@@ -18,13 +17,11 @@ The colorama python module.
 
 2. Run "git clone https://github.com/Solirs/iforgor/"
 
-3. Cd into the "iforgor" directory
+3. Cd into the newly created "iforgor" directory
 
 4. Run "./setup.sh"
 
-5. Close your terminal and open another one.
-
-6. Run "iforgor.py -h"
+5. Run "iforgor -h"
 
 If it works, the install was successful.
 You can then delete setup.sh 
@@ -66,7 +63,9 @@ This should work on pretty much any linux distro, but i can make mistakes, so do
 
 Iforgor has been tested on the following :
 
-Debian 11 "Bullseye" : *Working*
+Debian 11  : *Working*
+
+Void Linux : *Working*
 
 
 
