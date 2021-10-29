@@ -24,7 +24,7 @@ def highlight(code):
 
     for i in darkyellow:
         if i in code:
-            finished = re.sub(fr"{i}", f"{darkyellowcolor}{i}{Style.RESET_ALL}", finished)
+            finished = re.sub(fr"\b{i}\b", f"{darkyellowcolor}{i}{Style.RESET_ALL}", finished)
     for i in darkblue:
         if i in code:
             finished = re.sub(fr"\b{i}\b", f"{darkbluecolor}{i}{Style.RESET_ALL}", finished)
