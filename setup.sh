@@ -11,3 +11,13 @@ ln -s $(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/iforgor /usr/local/bin #Creat
 
 ln -s $(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/snippets /usr/local/bin #Creates symlink of snippets in /usr/local/bin so our iforgor synmlink can work.
 
+case "$1" in
+
+    "ungit" ) #Remove everything related to the github repository
+        rm $(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/README.md
+        rm -rf $(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/ressources
+        rm $(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/LICENSE
+        rm -rf $(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/.git
+        ;;
+
+esac
