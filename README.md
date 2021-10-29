@@ -30,6 +30,12 @@ The colorama python module.
 If it works, the install was successful.
 You can then delete setup.sh 
 
+## Uninstall:
+
+Simply delete the 'iforgor' and 'snippets' symlinks in /usr/local/bin.
+
+Then delete the iforgor folder.
+
 
 
 # Iforgor 101
