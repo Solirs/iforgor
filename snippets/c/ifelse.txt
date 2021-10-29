@@ -1,10 +1,10 @@
 if (test expression) 
 {
-   // code
+   //code
 }
 else if (other test expression) {
-   // Code
+   //Code
 }
 else {
-   // runs if all test expressions are false
+   //runs if all test expressions are false
 }

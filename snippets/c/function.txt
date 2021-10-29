@@ -1,15 +1,18 @@
-void main(int INT1, int INT2){
+void func1(int INT1, int INT2){
 
-    //Code
+    /* Code */
 
 }
-//Will return nothing as it has been declared a void, it will only execute its code
+/* Will return nothing as it has been declared a void, it will only execute its code */
 
 
-int main(int INT1, int INT2){
+int func2(int INT1, int INT2){
 
     return aninteger;
 
 }
 
-//Will return an integer
+void main(){
+    func1(1, 2)
+    func2(1, 2)
+}
