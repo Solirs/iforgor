@@ -11,9 +11,9 @@ Creates symlinks of iforgor.py and the snippets folder to /usr/local/bin. So tha
 
 ## Requirements : 
 
-Python.
-Git.
-The colorama python module. 
+- Python.
+- Git.
+- The colorama python module. 
 
 ## Step by step procedure :
 
