@@ -5,6 +5,10 @@ It's a good way to quickly get your hand on syntax you dont remember right from 
 
 # Installation
 
+## Method :
+
+Creates symlinks of iforgor.py and the snippets folder to /usr/local/bin. So that it can be run from anywhere on the terminal.
+
 ## Requirements : 
 
 Python.
@@ -19,12 +23,18 @@ The colorama python module.
 
 3. Cd into the newly created "iforgor" directory
 
-4. Run "./setup.sh"
+4. Run "./setup.sh" as root (it has to be run as root since it needs to create files in /usr/local/bin), add the ungit argument to remove github related files and folders like the readme and license.
 
 5. Run "iforgor -h"
 
 If it works, the install was successful.
 You can then delete setup.sh 
+
+## Uninstall:
+
+To uninstall, simply delete the 'iforgor' and 'snippets' symlinks in /usr/local/bin.
+
+Then delete the iforgor folder.
 
 
 
@@ -45,6 +55,11 @@ You will have to create a directory named "rust" in the snippets folder.
 And create a function.txt file in the rust folder with the code you want inside.
 
 You can then print it out by running **iforgor rust function**
+
+## Pro tips:
+
+- Languages and snippets are case insensitive. So you can run 'iforgor lAnGuAgE sNiPpeT'.
+
 
 
 
