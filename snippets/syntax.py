@@ -4,14 +4,14 @@ from colorama import Fore, Style, init
 import colorama
 import re
 
-colorama.init()
+
 
 
 darkyellowcolor = f"{Fore.YELLOW}{Style.NORMAL}"
 
 darkbluecolor =f"{Fore.BLUE}{Style.DIM}"
 
-whitecolor = f"{Fore.WHITE}{Style.BRIGHT}"
+whitecolor = f"{Fore.WHITE}"
 
 darkyellow = ['+', '-', '*', '/', '%', '**', '=', '+=', '-=', '==', '*=', '/=', '%=', '//=', '!=', '&=', '|=', '^=', '>>=', '<<=', "if", "else", ';', 'return']
 
@@ -44,8 +44,8 @@ def highlight(code):
     try:
 
 
-            finished = re.sub('("[^"]+")', Fore.BLUE + r'\1' + Style.RESET_ALL, finished)
-            finished = re.sub(r"('[^']')", Fore.BLUE + r'\1' + Style.RESET_ALL, finished)
+        finished = re.sub('("[^"]+")', Fore.BLUE + r'\1' + Style.RESET_ALL, finished)
+        finished = re.sub(r"('[^']')", Fore.BLUE + r'\1' + Style.RESET_ALL, finished)
     except:
         pass
 

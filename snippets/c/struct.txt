@@ -1,15 +1,6 @@
 struct Mystruct
     {
-    int variable1;
-    int variable2;
-    int OtherVariable;
-    double  DecimalNumber;
+
+        /* variables */
+
     };
-
-typedef struct Mystruct Mystruct;
-
-
-Mystruct foo;
-
-foo.variable1 = 1;
-//etc etc...

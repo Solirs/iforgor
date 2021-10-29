@@ -1,7 +1,5 @@
 list = [1,2,3,4,5,6,7] #Declare list.
 
-for i in list:
-    print(i)    #Print all elements in list.
-
-list[0] = 1 #Overwrite element
+for i in list: #Iterate trough list.
+    print(i)    
 

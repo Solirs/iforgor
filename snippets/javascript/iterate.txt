@@ -1,0 +1,6 @@
+var array = ["Hello","Hi"];
+var array_length = array.length;
+
+for (var i = 0; i < array_length; i++){
+    console.log(array[i])
+}

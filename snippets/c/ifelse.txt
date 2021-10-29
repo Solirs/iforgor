@@ -6,5 +6,5 @@ else if (other test expression) {
    // Code
 }
 else {
-   // runs if test expression is false
+   // runs if all test expressions are false
 }

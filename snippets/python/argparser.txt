@@ -1,0 +1,15 @@
+import argparse
+
+parser = argparse.ArgumentParser(description='') #Create an argument parser
+
+parser.add_argument(
+                       "Word", #Name of the argument
+                       type=str, #Type of returned value
+                       help='Word to print') #Description
+
+
+args = parser.parse_args() #Parse and list arguments in a variable.
+
+
+if args.Word: #Check for the 'word' arguments existence.
+    print(args.Word)

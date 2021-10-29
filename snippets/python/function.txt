@@ -4,5 +4,3 @@ def main(arg):  #Declare
 
 
 main(arg) #Call
-
-print(main(arg)) #Print returned value

@@ -1,9 +1,7 @@
 
 
 function funcname() {
-
-
-   console.log("blablablabla")
+   //Code
 }
 
 funcname()
