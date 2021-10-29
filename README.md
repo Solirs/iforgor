@@ -32,7 +32,7 @@ You can then delete setup.sh
 
 ## Uninstall:
 
-Simply delete the 'iforgor' and 'snippets' symlinks in /usr/local/bin.
+To uninstall, simply delete the 'iforgor' and 'snippets' symlinks in /usr/local/bin.
 
 Then delete the iforgor folder.
 
