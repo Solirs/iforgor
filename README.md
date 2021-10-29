@@ -53,7 +53,7 @@ You can then print it out by running **iforgor rust function**
 
 # Screenshots:
 
-![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo2.png?raw=true)
+![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo3.png?raw=true)
 
 
 
