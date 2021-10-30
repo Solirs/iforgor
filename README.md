@@ -91,3 +91,5 @@ Void Linux : *Working*
 # Want to contribute ?
 
 Sure. All help is accepted.
+
+The code is very commented if you want to take a look at it.
