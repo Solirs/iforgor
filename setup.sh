@@ -2,7 +2,7 @@
 
 
 
-#The install process basically adds the folder the setup script is in (adding iforgor.py and others at the same time) to PATH. By 
+#The install process creates a symlink of iforgor.py and the snippet directory in /usr/local/bin
 
 
 chmod +x $(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/iforgor #Gives iforgor.py aka the main script permissions to execute.
