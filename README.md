@@ -3,19 +3,19 @@
 Iforgor is a customisable and easy to use command line tool to manage code samples.
 It's a good way to quickly get your hand on syntax you dont remember right from your terminal without wasting time looking on the internet.
 
-# Installation
+## Installation
 
-## Method :
+### Method :
 
 Creates symlinks of iforgor.py and the snippets folder to /usr/local/bin. So that it can be run from anywhere on the terminal.
 
-## Requirements : 
+### Requirements : 
 
 - Python.
 - Git.
 - The colorama python module. 
 
-## Step by step procedure :
+### Step by step procedure :
 
 1. Open a terminal and cd into the directory you want to install the program into.
 
@@ -30,7 +30,7 @@ Creates symlinks of iforgor.py and the snippets folder to /usr/local/bin. So tha
 If it works, the install was successful.
 You can then delete setup.sh 
 
-## Uninstall:
+### Uninstall:
 
 To uninstall, simply delete the 'iforgor' and 'snippets' symlinks in /usr/local/bin.
 
@@ -38,7 +38,7 @@ Then delete the iforgor folder.
 
 
 
-# Iforgor 101
+## Iforgor 101
 
 To display a piece of code, run the following.
 
@@ -60,19 +60,22 @@ You can then print it out by running **iforgor rust function**
 
 - Languages and snippets are case insensitive. So you can run 'iforgor lAnGuAgE sNiPpeT'.
 
+- You dont need to do the setup process, but its required if you want to be able to run iforgor easily from anywhere.
+
+- There are default snippets yes, but iforgor is designed to be customized, dont hesitate to add your own custom snippets and languages.
 
 
 
 
 
 
-# Screenshots:
+## Screenshots:
 
 ![alt text](https://github.com/Solirs/iforgor/blob/master/ressources/demo3.png?raw=true)
 
 
 
-# Compatibility
+## Compatibility
 
 This should work on pretty much any linux distro, but i can make mistakes, so dont hesitate opening an issue if you face problems.
 
