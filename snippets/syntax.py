@@ -13,7 +13,9 @@ darkbluecolor =f"{Fore.BLUE}{Style.DIM}"
 
 whitecolor = f"{Fore.WHITE}"
 
-darkyellow = ['+', '-', '*', '/', '%', '**', '=', '+=', '-=', '==', '*=', '/=', '%=', '//=', '!=', '&=', '|=', '^=', '>>=', '<<=', "if", "else", ';', 'return'] #What we want to color in dark yellow
+green = ['+', '-', '*', '/', '%', '**', '=', '+=', '-=', '==', '*=', '/=', '%=', '//=', '!=', '&=', '|=', '^=', '>>=', '<<=',';']
+
+darkyellow = ["if", "else", "elif", "except", "break", "pass", "continue", 'return'] #What we want to color in dark yellow
 
 darkblue = ['void', 'int', 'char', 'double', 'float', 'double', 'struct', 'def', 'import'] #Same for dark blue
 
@@ -36,6 +38,13 @@ def highlight(code):
             finished = re.sub(fr"\{i}", f"{whitecolor}{i}{Style.RESET_ALL}", finished) 
         else:
             pass
+
+    for i in green:
+        if i in code:
+            finished = finished.replace(i, f'{Fore.GREEN}{i}{Style.RESET_ALL}') #Used this method instead of regex as operators tend to cause problems when using it.
+        else:
+            pass
+
 
     try:
 

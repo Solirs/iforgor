@@ -1,9 +1,9 @@
 void func1(int INT1, int INT2){
 
-    /* Code */
+    // Code
 
 }
-/* Will return nothing as it has been declared a void, it will only execute its code */
+// Will return nothing as it has been declared a void, it will only execute its code 
 
 
 int func2(int INT1, int INT2){
