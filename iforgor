@@ -1,42 +1,53 @@
 #!/usr/bin/python3
 
+import argparse
+import os
+from snippets.syntax import *
+from colorama import *
 
-if __name__ == "__main__":
 
-    import argparse, os
-    from snippets.syntax import *
-    from colorama import *
 
+
+def parse():
     parser = argparse.ArgumentParser(description='')
 
-    dirname = os.path.dirname(__file__)
+    
 
 
     parser.add_argument(
-                        "lang",
+                    "lang",
                         type=str.lower,
                         help='The snippets language.',)
-
     parser.add_argument(
-                        "Snippet",
+                        "snippet",
                         type=str.lower,
                         help='The code snippet you want to display.',)
 
-    args = parser.parse_args()                                              
+    args = parser.parse_args() 
+
+    process(args)
 
 
-    if (args.lang and args.Snippet): 
+def process(args):
+    dirname = os.path.dirname(__file__)
+
+    try:        
+        l = (dirname + "/snippets/" + args.lang + "/" + args.snippet + ".txt")
+        f = open(l, 'r') #Open snippet
+        print(highlight(f.read())) #Highlight and print
+        f.close()
+    except Exception as e:
+        print(e)                                        
 
 
 
-        if os.path.exists(os.path.join(dirname, "snippets/" + args.lang + "/" + args.Snippet + ".txt")): #Checks for folders corresponding to the lang argument in the snippets folder and for text files corresponding to the snippet argument in the language folder
-            try:
-                l = (dirname + "/snippets/" + args.lang + "/" + args.Snippet + ".txt")
-                f = open(l, 'r') #Open snippet
-                print(highlight(f.read())) #Highlight and print
-            except Exception as e:
-                print(e)
-        else:
-            print(Fore.RED + os.path.join(dirname, "snippets/" + args.lang +"/" + args.Snippet + ".txt") + " Invalid path") #Prints out the path that was checked in case the files corresponding to your argument don't exist.
+
+if __name__ == "__main__":
+
+    parse()
+
+
+
+
 
 
