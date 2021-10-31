@@ -93,3 +93,5 @@ Void Linux : *Working*
 Sure. All help is accepted.
 
 The code is very commented if you want to take a look at it.
+
+PLEASE dont forget to star the project if you find it interesting, it helps out a ton.
