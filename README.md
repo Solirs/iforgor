@@ -77,13 +77,19 @@ You can then print it out by running **iforgor rust function**
 
 ## Compatibility
 
+
+### Linux 
 This should work on pretty much any linux distro, but i can make mistakes, so dont hesitate opening an issue if you face problems.
 
-Iforgor has been tested on the following :
+Iforgor was tested on:
 
 Debian 11  : *Working*
 
 Void Linux : *Working*
+
+### BSDs and other unix based operating systems.
+
+Untested
 
 
 
