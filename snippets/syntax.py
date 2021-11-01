@@ -4,7 +4,7 @@ from colorama import Fore, Style, init
 import colorama
 import re
 
-
+#No shebang as this is supposed to be used as a module.
 
 
 darkyellowcolor = f"{Fore.YELLOW}{Style.NORMAL}"
