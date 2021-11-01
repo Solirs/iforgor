@@ -1,4 +1,5 @@
 lambda <args>: <expression>
 
 # Example:
-# add = lambda x, y: x + y 
+# add = lambda x, y: x + y
+# add(2, 2) # returns 4
