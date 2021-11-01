@@ -89,6 +89,8 @@ Void Linux : *Working*
 
 ### BSDs and other unix based operating systems.
 
+Tested on:
+
 FreeBSD : *Working*
 
 
