@@ -89,7 +89,7 @@ Void Linux : *Working*
 
 ### BSDs and other unix based operating systems.
 
-Untested
+FreeBSD : *Working*
 
 
 
