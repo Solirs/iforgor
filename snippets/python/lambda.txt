@@ -1,0 +1,4 @@
+lambda <args>: <expression>
+
+# Example:
+# add = lambda x, y: x + y 
