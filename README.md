@@ -87,11 +87,15 @@ Debian 11  : *Working*
 
 Void Linux : *Working*
 
+Arch Linux : *Working*
+
 ### BSDs and other unix based operating systems.
 
 Tested on:
 
 FreeBSD : *Working*
+
+OpenBSD : *Working if colorama python library is installed*
 
 
 
