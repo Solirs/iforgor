@@ -17,7 +17,7 @@ green = ['+', '-', '*', '/', '%', '**', '=', '+=', '-=', '==', '*=', '/=', '%=',
 
 darkyellow = ["if", "else", "elif", "except", "break", "pass", "continue", 'return'] #What we want to color in dark yellow
 
-darkblue = ['void', 'int', 'char', 'double', 'float', 'double', 'struct', 'def', 'import'] #Same for dark blue
+darkblue = ['void', 'int', 'char', 'double', 'float', 'double', 'struct', 'def', 'import', 'lambda'] #Same for dark blue
 
 white = ['(', ')', '{', '}',','] #Same for white
 
