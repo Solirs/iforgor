@@ -91,6 +91,8 @@ Arch Linux : *Working*
 
 ### BSDs and other unix based operating systems.
 
+Those are less certain to work, but you can still give it a try.
+
 Tested on:
 
 FreeBSD : *Working*
