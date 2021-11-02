@@ -95,7 +95,7 @@ Tested on:
 
 FreeBSD : *Working*
 
-OpenBSD : *Working if colorama python library is installed*
+OpenBSD : *Working*
 
 
 
